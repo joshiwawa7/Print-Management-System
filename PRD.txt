@@ -1,3 +1,6 @@
+Project Name: The Print Management System (PMS)
+GIT URL: https://github.com/joshiwawa7/Print-Management-System.git
+
 Project Overview
 
 -The Print Management System or PMS helps the shop owner or manager of the printing shop record customer printing orders digitally 
