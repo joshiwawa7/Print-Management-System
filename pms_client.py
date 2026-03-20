@@ -1,15 +1,7 @@
 #!/usr/bin/env python3
-"""
-╔══════════════════════════════════════════════╗
-║     Print Management System - API Client     ║
-║         Terminal-based CLI Interface         ║
-╚══════════════════════════════════════════════╝
+"""PMS terminal API client (interactive CLI).
 
-Usage:
-    python pms_client.py
-
-Requirements:
-    pip install requests
+Detailed usage and the original banner are in README_PMS_CLIENT.md.
 """
 
 import requests
@@ -38,13 +30,11 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
 def banner():
-    print(f"""
-{Color.CYAN}{Color.BOLD}╔══════════════════════════════════════════════╗
-║     🖨️  Print Management System (PMS)        ║
-║          Terminal API Client v1.0            ║
-╚══════════════════════════════════════════════╝{Color.RESET}
-{Color.DIM}  Connected to: {BASE_URL}{Color.RESET}
-""")
+    # Simple header (kept minimal for compatibility across terminals)
+    print()
+    print(f"{Color.CYAN}{Color.BOLD}Print Management System (PMS) - Terminal API Client{Color.RESET}")
+    print(f"{Color.DIM}  Connected to: {BASE_URL}{Color.RESET}")
+    print()
 
 def divider():
     print(f"{Color.DIM}{'─' * 48}{Color.RESET}")

@@ -27,3 +27,8 @@ Run tests:
 pip install -r requirements.txt
 pytest -q
 ```
+
+Client
+------
+This repository includes a simple terminal-based API client. See `README_PMS_CLIENT.md` for usage and demo instructions.
+
