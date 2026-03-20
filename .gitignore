@@ -1,0 +1,27 @@
+# Repository-level .gitignore for the PMS project
+# Ignore virtual environments, local DB files, caches, and editor configs
+
+# Virtual environments
+.venv/
+venv/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local DB files
+*.db
+pms.db
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Tests / build
+.pytest_cache/
+coverage.xml
